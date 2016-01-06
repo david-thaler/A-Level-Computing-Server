@@ -19,13 +19,25 @@
           		</archive>
         	</configuration>
   		</plugin>
+  		<plugin>
+      		<artifactId>maven-assembly-plugin</artifactId>
+     			 <configuration>
+        			<archive>
+          				<manifest>
+            				<mainClass>uk.co.jlensmeister.MainServer</mainClass>
+          				</manifest>
+        			</archive>
+        		<descriptorRefs>
+          			<descriptorRef>jar-with-dependencies</descriptorRef>
+        		</descriptorRefs>
+      		</configuration>
+   		 </plugin>
   	</plugins>
   </build>
   <dependencies>
   	<dependency>
   		<groupId>com.esotericsoftware</groupId>
   		<artifactId>kryonet</artifactId>
-  		<version>2.22.0-RC1</version>
   	</dependency>
   	<dependency>
 		<groupId>mysql</groupId>

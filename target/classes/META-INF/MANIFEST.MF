@@ -1,9 +1,5 @@
 Manifest-Version: 1.0
 Built-By: jlensmeister
-Class-Path: lib/kryonet-2.22.0-RC1.jar lib/kryo-2.24.0.jar lib/minlog-
- 1.2.jar lib/objenesis-2.1.jar lib/jsonbeans-0.7.jar lib/mysql-connect
- or-java-5.1.35.jar
 Build-Jdk: 1.8.0_65
 Created-By: Maven Integration for Eclipse
-Main-Class: uk.co.jlensmeister.MainServer
 

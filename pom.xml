@@ -5,6 +5,22 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Comp4 Server Application</name>
   <description>Comp 4 project server side application</description>
+  <build>
+  	<plugins>
+  		<plugin>
+  			<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-jar-plugin</artifactId>
+  			<configuration>
+          		<archive>
+          			<manifest>
+          				<packageName>uk.co.jlensmeister</packageName>
+            			<mainClass>uk.co.jlensmeister.MainServer</mainClass>
+            		</manifest>
+          		</archive>
+        	</configuration>
+  		</plugin>
+  	</plugins>
+  </build>
   <dependencies>
   	<dependency>
   		<groupId>com.esotericsoftware</groupId>

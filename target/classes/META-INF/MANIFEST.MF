@@ -1,5 +1,7 @@
 Manifest-Version: 1.0
+Package: uk.co.jlensmeister
 Built-By: jlensmeister
 Build-Jdk: 1.8.0_65
 Created-By: Maven Integration for Eclipse
+Main-Class: uk.co.jlensmeister.MainServer
 

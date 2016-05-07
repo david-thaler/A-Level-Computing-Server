@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>uk.co.jlensmeister</groupId>
   <artifactId>Comp4Server</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>VERSION-1</version>
   <name>Comp4 Server Application</name>
   <description>Comp 4 project server side application</description>
   <build>
